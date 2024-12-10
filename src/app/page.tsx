@@ -1,13 +1,70 @@
-import Header from "@/components/header";
+import Header_en from "@/components/header_en";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Header/>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
+    <div className="flex flex-col items-center justify-items-center min-h-screen gap-16 font-[family-name:var(--font-geist-sans)] w-full overflow-x-hidden bg-red-400">
+      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start w-full mx-4">
+        <div className="flex w-full items-center justify-between px-4">
+          <Header_en />
+          <Link href="/fr/home" className="pr-4 pb-24 self-end">Français</Link>
+        </div>
+        <div className="pl-12 pr-12 w-full bg-cyan-950 items-center flex flex-col">
+            <h1 className="text-5xl font-bold font-forum-regular text-black text-center w-full my-10 text-red-400">Mullen Academic English Services</h1>
+            <Image src="/booklib.png" alt="Logo" width={900} height={80} priority />
+            <p className="text-2xl font-bold font-forum text-white text-center w-full my-10">
+            TRANSLATION, COPYEDITING, PROOFREADING/REVISION AND PRONUNCIATION TRAINING
+            <br />
+            IN ENGLISH
+            <br />
+            FOR PROFESSORS, STUDENTS AND ACADEMIC PUBLISHERS
+            </p>
+            <p className="text-xl font-bold font-forum text-white w-full my-10">
+            Accurate English is important. Whether you are writing your thesis, giving a paper at a conference or publishing an article or book, the use of clear and correct English will help you to communicate your ideas convincingly, without distractions.
 
+            Mullen Academic English Services can provide the following services:
+            <ul style={{ listStyleType: "disc", paddingLeft: "1rem" }}>
+                <li>Copyediting/Proofreading/Revision of texts</li>
+                <li>Translation from French to English</li>
+                <li>Pronunciation training</li>
+                <li>General English lessons</li>
+            </ul>
+            </p>
+        </div>
+        <div className="pl-12 pr-12 w-full items-center flex flex-col">
+            <h1 className="text-5xl font-bold font-forum-regular text-black text-center w-full my-10">Client Testimonials</h1>
+            <div className="testimonial-grid">
+                <div className="testimonial centered">
+                    <p>
+                    This is EXACTLY what I need. Not only did Sarah correct my linguistic mistakes, but she also improved my style. It is rare to be able to entrust my manuscript to someone who has solid training in the Humanities and ancient languages. She also got the work done quickly. I am very impressed.</p>
+                    <br />
+                    <span>RÉGIS BURNET, NEW TESTAMENT PROFESSOR, VICE-DEAN, FACULTY OF THEOLOGY, UCLOUVAIN</span>
+                </div>
+            </div>
+        </div>
+        <div className="pl-12 pr-12 w-full bg-cyan-950 items-center flex flex-row">
+            <div className="flex flex-col gap-8 text-red-400">
+                <h1 className="text-5xl font-bold font-forum-regular text-center w-full my-10">Services</h1>
+             </div>
+             <Image src="/writing.png" alt="Writing" width={200} height={80} priority className="self-end align-self-end ml-auto" />
+        </div>
+      </main>
+      <footer className="row-start-3 flex gap-8 flex-wrap items-center justify-center p-4 bg-white w-full h-full">
+        <p className="text-center flex flex-col gap-6">
+            <p>
+            mullenacademicenglishservices@gmail.com
+            </p>
+            <p>
+            +32 494702441
+            </p>
+            <p>
+            VAT Number / Numéro de TVA : BE 0775.496.984
+            </p>
+            <p>
+            ©2021 par Mullen Academic English Services.
+            </p>
+        </p>
       </footer>
     </div>
   );
