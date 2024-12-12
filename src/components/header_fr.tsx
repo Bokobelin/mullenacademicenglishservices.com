@@ -13,9 +13,9 @@ export default function Header_en() {
                 priority
             />
             <div className="flex flex-row items-center">
-                <Button variant="link"><Link href="/">Home</Link></Button>
-                <Button variant="link"><Link href="/en/about">About</Link></Button>
-                <Button variant="link"><Link href="/en/pricing">Pricing</Link></Button>
+                <Button variant="link"><Link href="/fr/home">Accueil</Link></Button>
+                <Button variant="link"><Link href="/fr/about">A propos</Link></Button>
+                <Button variant="link"><Link href="/fr/pricing">Tarifs</Link></Button>
             </div>
         </header>
     );
