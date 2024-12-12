@@ -9,7 +9,7 @@ export default function Home() {
       <main className="flex flex-col row-start-2 items-center sm:items-start w-full mx-4">
         <div className="flex w-full items-center justify-between px-4">
           <Header_en />
-          <Link href="/en/home" className="pr-4 pb-24 self-end">English</Link>
+          <Link href="/" className="pr-4 pb-24 self-end">English</Link>
         </div>
         <div className="pl-12 pr-12 w-full bg-cyan-950 items-center flex flex-col">
             <h1 className="text-5xl font-bold font-forum-regular text-black text-center w-full my-10 text-red-400">Mullen Academic English Services</h1>
