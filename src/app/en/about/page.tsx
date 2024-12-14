@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function About() {
   return (
     <div className="flex flex-col items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)] w-full overflow-x-hidden bg-red-400">
-      <main className="flex flex-col row-start-2 items-center sm:items-start w-full mx-4">
+      <main className="flex flex-col row-start-2 items-center sm:items-start w-full lg:mx-4">
         <div className="flex w-full items-center justify-between px-4">
           <Header_en />
           <Link href="/fr/about" className="pr-4 pb-24 self-end">Français</Link>

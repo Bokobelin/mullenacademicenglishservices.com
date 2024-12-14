@@ -46,8 +46,8 @@ export default function Home() {
                 </div>
             </div>
         </div>
-        <div className="pl-12 w-full bg-cyan-950 items-center flex flex-row">
-            <div className="flex flex-col gap-2 text-red-400 pr-12">
+        <div className="px-12 w-full bg-cyan-950 items-center flex flex-row">
+            <div className="flex flex-col gap-2 text-red-400">
                 <h1 className="text-5xl font-bold font-forum-regular text-center w-full mt-10">Services</h1>
                 <div className="flex flex-col my-2">
                     <h2 className="text-2xl font-bold font-forum-regular text-center w-full">Copyediting/Proofreading/Revision of English texts</h2>
@@ -75,7 +75,7 @@ I can help you make progress and gain confidence in spoken and written English, 
                     </p>
                 </div>
              </div>
-             <Image src="/writing.png" alt="Writing" width={400} height={80} priority className="self-end align-self-end ml-auto" />
+             <Image src="/writing.png" alt="Writing" width={400} height={80} priority className="self-end align-self-end ml-12" />
         </div>
         <div className="p-12 w-full bg-red-400 items-center flex flex-col text-center">
             <h1 className="text-5xl font-bold font-forum-regular text-black text-center w-full my-10">Specialist areas</h1>
