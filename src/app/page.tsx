@@ -46,7 +46,7 @@ export default function Home() {
                 </div>
             </div>
         </div>
-        <div className="px-12 w-full bg-cyan-950 items-center flex flex-row">
+        <div className="px-6 lg:px-12 w-screen bg-cyan-950 items-center flex flex-row">
             <div className="flex flex-col gap-2 text-red-400">
                 <h1 className="text-5xl font-bold font-forum-regular text-center w-full mt-10">Services</h1>
                 <div className="flex flex-col my-2">
