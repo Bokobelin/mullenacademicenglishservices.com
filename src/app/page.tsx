@@ -46,35 +46,62 @@ export default function Home() {
                 </div>
             </div>
         </div>
-        <div className="px-6 lg:px-12 w-screen bg-cyan-950 items-center flex flex-row">
-            <div className="flex flex-col gap-2 text-red-400">
-                <h1 className="text-5xl font-bold font-forum-regular text-center w-full mt-10">Services</h1>
-                <div className="flex flex-col my-2">
-                    <h2 className="text-2xl font-bold font-forum-regular text-center w-full">Copyediting/Proofreading/Revision of English texts</h2>
-                    <p className="text-xl font-bold font-forum text-white w-full">
-                    For theses and dissertations, articles and books, project proposals and funding requests, I provide meticulous and appropriate corrections whilst maintaining your authorial &quot;voice&quot;.
-                    </p>
-                </div>
-                <div className="flex flex-col my-2">
-                    <h2 className="text-2xl font-bold font-forum-regular text-center w-full">Translation</h2>
-                    <p className="text-xl font-bold font-forum text-white w-full">
-                    Have you given a paper in French but would like to publish it in English? Or would you simply appreciate a professional translation, without having to struggle to express your ideas in English? I will translate into accurate, idiomatic English that respects academic norms.
-                    </p>
-                </div>
-                <div className="flex flex-col my-2">
-                    <h2 className="text-2xl font-bold font-forum-regular text-center w-full">Pronunciation Training</h2>
-                    <p className="text-xl font-bold font-forum text-white w-full">
-                    In order for your paper or presentation to have maximum impact, it is important that your listeners understand what you are saying and are not distracted by your accent or by errors of pronunciation. I can go through your paper with you, helping you to correct your pronunciation and to communicate your ideas clearly.
-                    </p>
-                </div>
-                <div className="flex flex-col my-2">
-                    <h2 className="text-2xl font-bold font-forum-regular text-center w-full">English Lessons</h2>
-                    <p className="text-xl font-bold font-forum text-white w-full">
-                    Improving your English is always useful, whether for fielding questions after a presentation, talking to other researchers at a conference, networking or getting involved in research projects.
-I can help you make progress and gain confidence in spoken and written English, through personalised lessons. Contact me to let me know what your needs are.
-                    </p>
-                </div>
-             </div>
+        <div className="pl-4 lg:px-12 w-screen bg-cyan-950 items-center flex flex-row">
+        <div className="flex flex-col gap-6 text-red-400 px-4 md:px-8 lg:px-16">
+  <h1 className="text-4xl md:text-5xl font-bold font-forum-regular text-center w-full mt-10">
+    Services
+  </h1>
+
+  <div className="flex flex-col my-4">
+    <h2 className="text-xl md:text-2xl font-bold font-forum-regular text-center w-full pr-0 md:pr-2">
+      Copyediting/Proofreading/Revision of English texts
+    </h2>
+    <p className="text-base md:text-lg font-bold font-forum text-white w-full text-center md:text-left">
+      For theses and dissertations, articles and books, project proposals and
+      funding requests, I provide meticulous and appropriate corrections whilst
+      maintaining your authorial &quot;voice&quot;.
+    </p>
+  </div>
+
+  <div className="flex flex-col my-4">
+    <h2 className="text-xl md:text-2xl font-bold font-forum-regular text-center w-full pr-0 md:pr-2">
+      Translation
+    </h2>
+    <p className="text-base md:text-lg font-bold font-forum text-white w-full text-center md:text-left">
+      Have you given a paper in French but would like to publish it in English?
+      Or would you simply appreciate a professional translation, without having
+      to struggle to express your ideas in English? I will translate into
+      accurate, idiomatic English that respects academic norms.
+    </p>
+  </div>
+
+  <div className="flex flex-col my-4">
+    <h2 className="text-xl md:text-2xl font-bold font-forum-regular text-center w-full pr-0 md:pr-2">
+      Pronunciation Training
+    </h2>
+    <p className="text-base md:text-lg font-bold font-forum text-white w-full text-center md:text-left">
+      In order for your paper or presentation to have maximum impact, it is
+      important that your listeners understand what you are saying and are not
+      distracted by your accent or by errors of pronunciation. I can go through
+      your paper with you, helping you to correct your pronunciation and to
+      communicate your ideas clearly.
+    </p>
+  </div>
+
+  <div className="flex flex-col my-4">
+    <h2 className="text-xl md:text-2xl font-bold font-forum-regular text-center w-full">
+      English Lessons
+    </h2>
+    <p className="text-base md:text-lg font-bold font-forum text-white w-full text-center md:text-left">
+      Improving your English is always useful, whether for fielding questions
+      after a presentation, talking to other researchers at a conference,
+      networking or getting involved in research projects. I can help you make
+      progress and gain confidence in spoken and written English, through
+      personalised lessons. Contact me to let me know what your needs are.
+    </p>
+  </div>
+</div>
+
              <Image src="/writing.png" alt="Writing" width={400} height={80} priority className="self-end align-self-end ml-12" />
         </div>
         <div className="p-12 w-full bg-red-400 items-center flex flex-col text-center">

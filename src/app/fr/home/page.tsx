@@ -47,34 +47,64 @@ C’est EXACTEMENT ce dont j’avais besoin. Sarah a non seulement corrigé mes 
             </div>
         </div>
         <div className="pl-12 w-full bg-cyan-950 items-center flex flex-row">
-            <div className="flex flex-col gap-2 text-red-400 pr-12">
-                <h1 className="text-5xl font-bold font-forum-regular text-center w-full mt-10">Services</h1>
-                <div className="flex flex-col my-2">
-                    <h2 className="text-2xl font-bold font-forum-regular text-center w-full">Relecture-correction</h2>
-                    <p className="text-xl font-bold font-forum text-white w-full">
-                    Pour des thèses et des dissertations, des articles et des livres, je fournis des corrections méticuleuses et appropriées, tout en respectant votre &quot;voix&quot; d&apos;auteur.
-                    </p>
-                </div>
-                <div className="flex flex-col my-2">
-                    <h2 className="text-2xl font-bold font-forum-regular text-center w-full">Traduction</h2>
-                    <p className="text-xl font-bold font-forum text-white w-full">
-                    Vous avez donné un papier en français mais vous voudriez le publier en anglais ? Ou bien vous voudriez en obtenir une traduction de qualité professionnelle, sans avoir à peiner pour exprimer vos idées en anglais ? Je traduirai votre texte en un anglais correct et idiomatique qui respecte les normes académiques. En tant que relectrice formée, je peux également assurer la mise aux normes éditoriales (editorial guidelines).
-                    </p>
-                </div>
-                <div className="flex flex-col my-2">
-                    <h2 className="text-2xl font-bold font-forum-regular text-center w-full">Formation à la prononciation</h2>
-                    <p className="text-xl font-bold font-forum text-white w-full">
-                    Afin que votre papier ou présentation ait un impact maximal, il est important que vos auditeurs comprennent ce que vous dites et ne soient pas distraits par votre accent ou par des erreurs de prononciation. Je peux passer en revue votre texte avec vous pour vous aider à corriger votre prononciation et communiquer vos idées avec clarté.
-                    </p>
-                </div>
-                <div className="flex flex-col my-2">
-                    <h2 className="text-2xl font-bold font-forum-regular text-center w-full">Cours d&apos;anglais</h2>
-                    <p className="text-xl font-bold font-forum text-white w-full">
-                    Améliorer votre anglais est toujours utile, que ce soit pour répondre aux questions après une présentation, parler aux autres chercheurs lors d&aposun colloque, faire du réseautage ou vous impliquer dans des projets de recherche.
-Je peux vous aider à progresser et gagner en confiance dans l&apos;anglais parlé et écrit, à l&apos;aide de cours personnalisés. Contactez-moi !
-                    </p>
-                </div>
-             </div>
+        <div className="flex flex-col gap-6 text-red-400 px-4 md:px-8 lg:px-16">
+  <h1 className="text-4xl md:text-5xl font-bold font-forum-regular text-center w-full mt-10">
+    Services
+  </h1>
+
+  <div className="flex flex-col my-4">
+    <h2 className="text-xl md:text-2xl font-bold font-forum-regular text-center w-full">
+      Relecture-correction
+    </h2>
+    <p className="text-base md:text-lg font-bold font-forum text-white w-full text-center md:text-left">
+      Pour des thèses et des dissertations, des articles et des livres, je
+      fournis des corrections méticuleuses et appropriées, tout en respectant
+      votre &quot;voix&quot; d&apos;auteur.
+    </p>
+  </div>
+
+  <div className="flex flex-col my-4">
+    <h2 className="text-xl md:text-2xl font-bold font-forum-regular text-center w-full">
+      Traduction
+    </h2>
+    <p className="text-base md:text-lg font-bold font-forum text-white w-full text-center md:text-left">
+      Vous avez donné un papier en français mais vous voudriez le publier en
+      anglais ? Ou bien vous voudriez en obtenir une traduction de qualité
+      professionnelle, sans avoir à peiner pour exprimer vos idées en anglais ?
+      Je traduirai votre texte en un anglais correct et idiomatique qui respecte
+      les normes académiques. En tant que relectrice formée, je peux également
+      assurer la mise aux normes éditoriales (editorial guidelines).
+    </p>
+  </div>
+
+  <div className="flex flex-col my-4">
+    <h2 className="text-xl md:text-2xl font-bold font-forum-regular text-center w-full">
+      Formation à la prononciation
+    </h2>
+    <p className="text-base md:text-lg font-bold font-forum text-white w-full text-center md:text-left">
+      Afin que votre papier ou présentation ait un impact maximal, il est
+      important que vos auditeurs comprennent ce que vous dites et ne soient
+      pas distraits par votre accent ou par des erreurs de prononciation. Je
+      peux passer en revue votre texte avec vous pour vous aider à corriger
+      votre prononciation et communiquer vos idées avec clarté.
+    </p>
+  </div>
+
+  <div className="flex flex-col my-4">
+    <h2 className="text-xl md:text-2xl font-bold font-forum-regular text-center w-full">
+      Cours d&apos;anglais
+    </h2>
+    <p className="text-base md:text-lg font-bold font-forum text-white w-full text-center md:text-left">
+      Améliorer votre anglais est toujours utile, que ce soit pour répondre aux
+      questions après une présentation, parler aux autres chercheurs lors
+      d&apos;un colloque, faire du réseautage ou vous impliquer dans des projets
+      de recherche. Je peux vous aider à progresser et gagner en confiance dans
+      l&apos;anglais parlé et écrit, à l&apos;aide de cours personnalisés.
+      Contactez-moi !
+    </p>
+  </div>
+</div>
+
              <Image src="/writing.png" alt="Writing" width={400} height={80} priority className="self-end align-self-end ml-auto" />
         </div>
         <div className="p-12 w-full bg-red-400 items-center flex flex-col text-center">
