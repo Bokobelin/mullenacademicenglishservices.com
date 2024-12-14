@@ -15,7 +15,7 @@ export default function About() {
             <h1 className="text-5xl font-bold font-forum-regular text-red-400 text-center w-full my-10">About Sarah Mullen</h1>
             <Image src="/sarah.png" alt="Sarah" width={300} height={80} priority />
             <p className="text-white font-forum lg:px-32 mt-14">
-I have always been interested in words, language and litterature. I come from a family who used to keep a dictionary near the dining table in order to look up words during the meal, if something came up in conversation.
+I have always been interested in words, language and literature. I come from a family who used to keep a dictionary near the dining table in order to look up words during the meal, if something came up in conversation.
 <br/>
 <br/>
 I have a degree in Classics from Oxford University and have studied Theology in France. I have also trained as a proofreader with the Chartered Institute of Editing and Proofreading (CIEP).
