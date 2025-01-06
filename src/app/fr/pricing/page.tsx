@@ -18,7 +18,7 @@ export default function Pricing() {
                 <li className="text-red-400 text-xl text-forum-regular">Traduction</li>
                 <p className="text-forum text-white">0,06 euros le mot.</p>
                 <li className="text-red-400 text-xl text-forum-regular">Formation à la prononciation</li>
-                <p className="text-forum text-white">30 euros / heure.
+                <p className="text-forum text-white">35 euros / heure.
                     <br/>
                 En ligne ou en présentiel selon les cas</p>
                 <li className="text-red-400 text-xl text-forum-regular">Cours d&apos;anglais</li>

@@ -18,7 +18,7 @@ export default function Pricing() {
                 <li className="text-red-400 text-xl text-forum-regular">Translation</li>
                 <p className="text-forum text-white">0,06 euros per word</p>
                 <li className="text-red-400 text-xl text-forum-regular">Pronunciation training</li>
-                <p className="text-forum text-white">30 euros / hour
+                <p className="text-forum text-white">35 euros / hour
                     <br/>
                 On line or face-to-face</p>
                 <li className="text-red-400 text-xl text-forum-regular">English lessons</li>

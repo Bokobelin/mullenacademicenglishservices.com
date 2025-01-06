@@ -22,15 +22,15 @@ EN ANGLAIS
 POUR DES PROFESSEURS, DES ÉTUDIANTS ET DES ÉDITEURS ACADÉMIQUES
             </p>
             <div className="text-xl font-bold font-forum text-white w-full my-10">
-            Ecrire et parler en anglais de façon correcte est important. Si vous écrivez votre thèse, donnez un papier lors d&apos;un colloque ou publiez un article ou encore un livre, utiliser l&aposanglais de façon claire et juste vous aidera à communiquer vos idées de façon plus convaincante.
+            Ecrire et parler en anglais de façon correcte est important. Si vous écrivez votre thèse, donnez un papier lors d&apos;un colloque ou publiez un article ou encore un livre, utiliser l&apos;anglais de façon claire et juste vous aidera à communiquer vos idées de façon plus convaincante.
 Mullen Academic English Services fournit les services suivants :
 <br/>
 <br/>
             <ul style={{ listStyleType: "disc", paddingLeft: "1rem" }}>
                 <li>Relecture-correction en anglais</li>
-                <li>Traduction du français vers l&aposanglais</li>
+                <li>Traduction du français vers l&apos;anglais</li>
                 <li>Formation à la prononciation</li>
-                <li>Cours d&aposanglais</li>
+                <li>Cours d&apos;anglais</li>
             </ul>
             </div>
         </div>
