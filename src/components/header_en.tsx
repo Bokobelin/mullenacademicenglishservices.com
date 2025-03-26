@@ -16,6 +16,7 @@ export default function Header_en() {
                 <Button variant="link"><Link href="/">Home</Link></Button>
                 <Button variant="link"><Link href="/en/about">About</Link></Button>
                 <Button variant="link"><Link href="/en/pricing">Pricing</Link></Button>
+                <Button variant="link"><Link href="/en/portfolio">Portfolio</Link></Button>
             </div>
         </header>
     );
