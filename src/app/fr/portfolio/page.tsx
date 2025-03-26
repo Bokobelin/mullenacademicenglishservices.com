@@ -45,7 +45,7 @@ export default function Portfolio() {
               <li>• Kristiaan Venken et Anthony Dupont, “Turning Evil to Good (ciu. 22.1): The Anatomy of Evil in Augustine’s De ciuitate Dei”.</li>
               <li>• Metha Hokke, “Ambrose’s Virginity Treatises: Destined For Virginity or a Free Choice,” dans Augustiniana (à paraître).</li>
               <li>• Simon Naveau, “Old Greek of Numbers & Deuteronomion is Not Affected by Alexandrian Milieu: Translation of ‘Sea’”.</li>
-              <li>• C.J. (Niels) de Bruijn, “Ex nudo Dei beneplacito. On Concord and Discord between Luis de Molina's Concordia and Leonardus Lessius’s De gratia efficaci.”</li>
+              <li>• C.J. (Niels) de Bruijn, “Ex nudo Dei beneplacito. On Concord and Discord between Luis de Molina&apos;s Concordia and Leonardus Lessius’s De gratia efficaci.”</li>
             </ul>
             <h3>Livres</h3>
             <ul>
