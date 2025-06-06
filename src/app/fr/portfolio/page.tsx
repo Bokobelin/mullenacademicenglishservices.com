@@ -10,23 +10,23 @@ export default function Portfolio() {
             <Header_fr />
             <Link href="/en/portfolio" className="pr-4 pb-24 self-end">English</Link>
           </div>
-          <div className="pl-12 pr-12 w-full bg-cyan-950 flex flex-col pb-12">
+          <div className="pl-12 pr-12 w-full bg-red-300 flex flex-col pb-12">
             <h1 className="text-5xl font-bold font-forum-regular text-red-400 w-full my-10">Travaux réalisés</h1>
-            <h2 className="text-2xl">Traductions</h2>
-            <h3>Livres</h3>
+            <h2 className="text-2xl mt-6 mb-4">Traductions</h2>
+            <h3 className="mt-6 mb-4">Livres</h3>
             <ul>
               <li>• Matthieu Richelle, The Bible and Archaeology (Peabody, MA, Hendrickson, 2018) (traduit de La Bible et l’archéologie, Charols, Excelsis, 1re édition 2012)</li>
               <li>• Matthieu Richelle, Interpreting Israel’s Scriptures: A Practical Guide to the Exegesis of the Hebrew Bible/Old Testament (Peabody, MA, Hendrickson, 2022) (traduit et adapté de Guide pour l’exégèse de l’Ancien Testament: Méthodes, exemples et instruments de travail [Vaux-sur-Seine/Charols, Edifac/Excelsis, 2012).</li>
               <li>• Marc Rastoin, Jesus, With Style: Luke’s Literary and Theological Genius (Leuven, Peeters, 2023) (traduit avec Lauren Bergier de plusieurs articles).</li>
             </ul>
-            <h2 className="text-2xl">Relecture et correction de l’anglais</h2>
-            <h3>Revues</h3>
+            <h2 className="text-2xl mt-6 mb-4">Relecture et correction de l’anglais</h2>
+            <h3 className="mt-6 mb-4">Revues</h3>
             <ul>
               <li>• Ephemerides Theologicae Louvanienses (ETL): correction de l’anglais de la plupart des articles en anglais depuis octobre 2022.</li>
               <li>• Augustiniana: correction de l’anglais des articles en anglais depuis novembre 2023.</li>
               <li>• Revue d’Histoire Ecclésiastique (RHE): correction de l’anglais des articles en anglais depuis Janvier 2024.</li>
             </ul>
-            <h3>Articles</h3>
+            <h3 className="mt-6 mb-4">Articles</h3>
             <ul>
               <li>• Régis Burnet, “How to Do Things with Letters: The Pragmatics of Pauline Epistolography.”</li>
               <li>• Matthieu Richelle, Literacy and Scribalism in Ancient Israel (1200/1150–586 BCE),” dans Ancient Israel World, ed. K. M. Keimer et G. Pierce (Routledge Worlds; London: Routledge, 2022), 335-347.</li>
@@ -47,20 +47,20 @@ export default function Portfolio() {
               <li>• Simon Naveau, “Old Greek of Numbers & Deuteronomion is Not Affected by Alexandrian Milieu: Translation of ‘Sea’”.</li>
               <li>• C.J. (Niels) de Bruijn, “Ex nudo Dei beneplacito. On Concord and Discord between Luis de Molina&apos;s Concordia and Leonardus Lessius’s De gratia efficaci.”</li>
             </ul>
-            <h3>Livres</h3>
+            <h3 className="mt-6 mb-4">Livres</h3>
             <ul>
               <li>• Do We Still Need Inspiration? Scriptures and Theology, éd. Matthieu Richelle, Camilla Recalcati et Martijn Beukenhorst (Berlin, De Gruyter, 2024).</li>
               <li>• Revelation’s New Jerusalem in Late Antiquity, éd. Nathan Betz, Anthony Dupont et Johan Leemans (Tübingen, Mohr Siebeck, 2023) (correction technique, avec correction de l’anglais pour certains chapitres).</li>
               <li>• Histoire, société et études islamiques au 21e siècle. Directions, connexions, approaches, éd. Vincent Legrand et Ayang Utriza Yakin (Berlin/Boston, De Gruyter, 2024) (correction de l’anglais, uniquement certains chapitres).</li>
             </ul>
-            <h3>Thèses de doctorat</h3>
+            <h3 className="mt-6 mb-4">Thèses de doctorat</h3>
             <ul>
               <li>• Nathan Betz, City of Gods: The New Jerusalem of John’s Revelation in Early Christianity (through ca. 313), PhD, KU Leuven. Soutenu le 30 mai, 2022, publié dans Vigiliae Christianae, Supplements 186, 2025 (relecture finale).</li>
               <li>• Bruno Marien, Recommendation letters of Libanius: comparison with the wider ancient epistolary practice and means of promoting interests of his multiple petitioners, PhD, KU Leuven/Ghent University, soutenu en 2023 (relecture et correction de l’anglais et des normes éditoriales).</li>
               <li>• Camilla Recalcati, Talk Like an Egyptian: Egyptian Influences on the Greek (LXX) of Genesis, Exodus, and Leviticus, PhD, UC Louvain, soutenu le 28 mai 2024 (correction de l’anglais, uniquement certains chapitres).</li>
               <li>• Beatrice Bonanno, The Septuagint of Ruth: Translation Technique, Textual History and Theological Issues, PhD, UC Louvain, soutenu le 20 avril 2024, publié par Brepols (Turnhout, 2024) (correction de l’anglais).</li>
             </ul>
-            <h3>Textes pour présentations orales</h3>
+            <h3 className="mt-6 mb-4">Textes pour présentations orales</h3>
             <ul>
               <li>• Ellen De Doncker, ‘From Your Mouth to God’s Ears’: The Septuagint’s Treatment of God’s Ears in the Pentateuch (papier lu à SASNES, LXXSA and OTSSA Annual Meeting, University of the Free State, South Africa (Online) [30/08/2021 to 03/09/2021]).</li>
               <li>• Natasha Luna Malaga, “’Deform’d, unfinish’d, sent before my time’: the shift in perspective on the body, being, and the I, through a dialogue between Berlinde de Bruyckere’s art and Jean-Luc Nancy’s thought.”</li>
