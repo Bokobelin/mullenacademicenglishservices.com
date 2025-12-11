@@ -26,7 +26,7 @@ export default function About() {
               <li>• Augustiniana: language copyediting for English-language reviews since November 2023.</li>
               <li>• Revue d’Histoire Ecclésiastique (RHE): language copyediting for English-language articles and reviews since January 2024.</li>
             </ul>
-            <h3>Articles</h3>
+            <h3 className="mt-6 mb-4">Articles</h3>
             <ul>
               <li>• Régis Burnet, “How to Do Things with Letters: The Pragmatics of Pauline Epistolography.”</li>
               <li>• Matthieu Richelle, Literacy and Scribalism in Ancient Israel (1200/1150–586 BCE),” in Ancient Israel World, ed. K. M. Keimer and G. Pierce (Routledge Worlds; London: Routledge, 2022), 335-347.</li>
